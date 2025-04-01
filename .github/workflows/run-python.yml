@@ -3,7 +3,7 @@ name: Run Python Script
 on:
     workflow_dispatch:
     schedule:
-      - cron: '*/30 * * * *'  # 每 5 分钟运行一次
+      - cron: '* */2 * * *'  # 每 5 分钟运行一次
 
 jobs:
   run-python:
